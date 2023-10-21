@@ -1,10 +1,18 @@
 import logo from "./logo.svg";
 import "./App.css";
+import VerticalNavbar from "./components/vertical-navbar";
+import HorizontalMenubar from "./components/horizontal-menubar";
+import ContentContainer from './components/contentContainer';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <div className="grid-line">
+        <VerticalNavbar />
+        <HorizontalMenubar />
+        <ContentContainer/>
+      </div>
+      
     </div>
   );
 }
