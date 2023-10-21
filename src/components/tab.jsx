@@ -34,7 +34,7 @@ export default function Tabs() {
           </a>
         </li>
         <li className="mr-2">
-          <a className="inline-block px-4 py-3 rounded-lg  active:text-gray-900">
+          <a className="inline-block px-4 py-3 rounded-lg active:text-gray-900">
             <MdKeyboardArrowRight  className="text-xl"/>
           </a>
         </li>
