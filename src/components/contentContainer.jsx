@@ -4,7 +4,7 @@ import Side from "./side";
 
 export default function ContentContainer() {
   return (
-    <div className="content-container flex w-auto">
+    <div className="content-container flex w-auto mt-32">
       <div>
         <TopHeroMsg />
         <BillList />

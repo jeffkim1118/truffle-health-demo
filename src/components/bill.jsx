@@ -1,7 +1,10 @@
 import { useNavigate } from "react-router-dom";
 
 export default function Bill({ data }) {
- 
+  let navigate = useNavigate()
+  const handleClick = () => {
+    navigate('/summary')
+  }
   
 
   return (
@@ -34,7 +37,7 @@ export default function Bill({ data }) {
             </div>
           </div>
           <p>?saving opportunites</p>
-          <button className="button-go bg-indigo-500 px-6 py-1 rounded-lg text-yellow-200">Check it</button>
+          <button className="button-go bg-indigo-500 px-6 py-1 rounded-lg text-yellow-200" onClick={handleClick}>Check it</button>
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ import { IoIosArrowBack } from "react-icons/io";
 
 export default function Menubar() {
   return (
-    <div className="menubar-container flex w-full h-fit rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">
+    <div className="absolute menubar-container flex w-full h-fit rounded-lg px-3 py-2 text-slate-700 ml-52 font-medium hover:bg-slate-100 hover:text-slate-900">
 
       <h1 className="flex mr-96 rounded-md px-4 py-2 text-3xl font-bold text-gray-700 focus:outline-none focus:ring">
         <IoIosArrowBack className="block text-3xl font-lg m-1.5" />

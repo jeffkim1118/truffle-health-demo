@@ -5,14 +5,14 @@
 .grid-line{
     display: grid;
     grid-template-columns: [first] 20% [line2] 20% [line3] 20% [line4] 10% [five] auto [end];
-    grid-template-rows: [row1] 10% [row2] 25% [row3] 25% [row4] 25% [row5] auto [end];
+    grid-template-rows: [row1] 10% [row2] 25% [row3] 25% [row4] 25% [row5];
 }
 
 .content-container{
     grid-column-start: line2;
     grid-column-end: end;
     grid-row-start: row2;
-    grid-row-end: end;
+    grid-row-end: row4;
 }
 
 .menu-bar{
