@@ -14,7 +14,7 @@ export default function Navbar() {
         />
         <li>
           <a
-            href=""
+            href="/"
             class="flex block rounded-r-3xl px-4 py-2 text-lg font-medium text-gray-500 hover:bg-violet-600 hover:text-yellow-50 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 "
           >
             <BiHomeSmile className="block text-lg font-medium m-1.5" />

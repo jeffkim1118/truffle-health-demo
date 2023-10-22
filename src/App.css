@@ -29,3 +29,11 @@
 .savings-checklist{
     text-decoration: line-through;
 }
+
+.helpBtn{
+    width: 45rem;
+}
+
+.bill-image{
+    width: 400px;
+}

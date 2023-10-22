@@ -5,15 +5,17 @@ import { AiOutlinePlus } from "react-icons/ai";
 import { IoIosArrowBack } from "react-icons/io";
 
 export default function Menubar() {
+  
   return (
     <div className="absolute menubar-container flex w-full h-fit rounded-lg px-3 py-2 text-slate-700 ml-52 font-medium hover:bg-slate-100 hover:text-slate-900">
 
       <h1 className="flex mr-96 rounded-md px-4 py-2 text-3xl font-bold text-gray-700 focus:outline-none focus:ring">
         <IoIosArrowBack className="block text-3xl font-lg m-1.5" />
-        Hello, Tom
+        <p>Hello, Tom</p>
+       
       </h1>
 
-      <ul className="menu-bar flex ml-96">
+      <ul className="menu-bar flex ml-46">
         <li>
           <a className="flex rounded-md px-4 py-2 text-md font-md text-gray-500 focus:outline-none focus:ring">
             <AiOutlineDollar className="block text-lg font-medium m-1.5" />
